@@ -1,8 +1,9 @@
-<script lang="ts" setup></script>
+<script setup lang="ts"></script>
 
 <template>
   <div>
-    Page: index 首頁
+    Layout: admin
+    <slot />
   </div>
 </template>
 
