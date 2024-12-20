@@ -18,10 +18,12 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+            <NuxtLink class="nav-link" to="/" target="_blank">Home</NuxtLink>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Features</a>
+            <!-- <a class="nav-link" href="#">Features</a> -->
+            <NuxtLink class="nav-link" to="/room">Room</NuxtLink>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Pricing</a>
